@@ -19,7 +19,6 @@
 
 @property (strong) NSOperationQueue*		queue;
 @property (strong) ELGWorkerOperation*		operation;
-@property (strong) NSNumber*				autosaves;
 
 
 

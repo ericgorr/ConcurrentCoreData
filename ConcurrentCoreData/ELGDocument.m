@@ -140,7 +140,7 @@
 	[globals setCounterA:[NSNumber numberWithInteger:[[globals counterA] integerValue] + 1]];
 	
 	
-	if ( [[self autosaves] boolValue] )
+	if ( [[globals autosave] boolValue] )
 	{
 		NSLog( @"saving plus action" );
 		

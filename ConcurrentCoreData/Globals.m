@@ -12,5 +12,6 @@
 @implementation Globals
 
 @dynamic counterA;
+@dynamic autosave;
 
 @end

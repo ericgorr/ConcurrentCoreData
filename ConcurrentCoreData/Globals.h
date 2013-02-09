@@ -13,5 +13,6 @@
 @interface Globals : NSManagedObject
 
 @property (nonatomic, retain) NSNumber * counterA;
+@property (nonatomic, retain) NSNumber * autosave;
 
 @end

@@ -32,6 +32,8 @@
 		[person setName:[NSString stringWithFormat:@"Person worker %lu", x]];
 	}
 	
+	sleep( 10 );
+	
 	NSError*	error;
 	
 	[[self moc] save:&error];

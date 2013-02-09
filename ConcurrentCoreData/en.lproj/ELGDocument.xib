@@ -465,19 +465,19 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: self.autosaves</string>
+						<string key="label">value: selection.autosave</string>
 						<reference key="source" ref="920929975"/>
-						<reference key="destination" ref="512844837"/>
+						<reference key="destination" ref="368558056"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="920929975"/>
-							<reference key="NSDestination" ref="512844837"/>
-							<string key="NSLabel">value: self.autosaves</string>
+							<reference key="NSDestination" ref="368558056"/>
+							<string key="NSLabel">value: selection.autosave</string>
 							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">self.autosaves</string>
+							<string key="NSKeyPath">selection.autosave</string>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">100062</int>
+					<int key="connectionID">100064</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -600,6 +600,7 @@
 						<int key="objectID">100046</int>
 						<reference key="object" ref="368558056"/>
 						<reference key="parent" ref="0"/>
+						<string key="objectName">Globals Array Controller</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">100053</int>
@@ -657,7 +658,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">100062</int>
+			<int key="maxID">100064</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
